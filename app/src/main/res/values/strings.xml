@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PoliLast</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_student_home">StudentHomeActivity</string>
+    <string name="title_activity_company_home">CompanyHomeActivity</string>
+    <string name="title_activity_professor_home">ProfessorHomeActivity</string>
+
+    <!-- Login form -->
+    <string name="username_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_title">LOG IN</string>
+    <string name="signup_title">SIGN UP</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="error_intro">Please,  enter</string>
+    <string name="error_blank_username">email,</string>
+    <string name="error_join">and</string>
+    <string name="error_blank_password">password</string>
+    <string name="error_end">!</string>
+    <string name="progress_login">Logging in</string>
+    <!-- Signup form -->
+    <string name="password_again_hint">Confirm password</string>
+    <string name="select_user_type">Select user type</string>
+    <string name="error_email_not_valid">Email is not valid</string>
+    <string name="error_mismatched_passwords">mismatched password</string>
+    <string name="error_user_type">choose user type</string>
+    <string name="progress_signup">Signing up</string>
+    <string name="dept_hint">Department</string>
+    <string name="major_hint">Major</string>
+
+    <!-- user type array -->
+    <string-array name="users_array">
+        <item>student</item>
+        <item>professor</item>
+        <item>company</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>
