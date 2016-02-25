@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/co_nav_home"
+            android:icon="@drawable/ic_account_circle_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/co_nav_post"
+            android:icon="@drawable/ic_add_circle_24dp"
+            android:title="Post a job" />
+        <item
+            android:id="@+id/co_nav_applications"
+            android:icon="@drawable/ic_face_24dp"
+            android:title="Applications" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_exit_to_app_24dp"
+            android:id="@+id/co_nav_logout"
+            android:title="Logout"/>
+
+    </group>
+
+</menu>

@@ -13,7 +13,7 @@
     <string name="login_title">LOG IN</string>
     <string name="signup_title">SIGN UP</string>
     <string name="title_activity_signup">SignupActivity</string>
-    <string name="error_intro">Please,  enter</string>
+    <string name="error_intro">Please, enter</string>
     <string name="error_blank_username">email,</string>
     <string name="error_join">and</string>
     <string name="error_blank_password">password</string>
@@ -28,18 +28,65 @@
     <string name="progress_signup">Signing up</string>
     <string name="dept_hint">Department</string>
     <string name="major_hint">Major</string>
-
+    <string name="name_hint">Fullname</string>
+    <string name="error_course">course</string>
+    <string name="error_subject">subject</string>
     <!-- user type array -->
     <string-array name="users_array">
-        <item>student</item>
-        <item>professor</item>
-        <item>company</item>
+        <item>Student</item>
+        <item>Professor</item>
+        <item>Company</item>
+    </string-array>
+    <!-- user type array -->
+    <string-array name="category">
+        <item>Book</item>
+        <item>Apartment</item>
+        <item>Job</item>
+    </string-array>
+    <!-- course array -->
+    <string-array name="course_array">
+        <item>Software Engineering</item>
+        <item>Embedded Systems Engineering</item>
+        <item>Network Engineering</item>
+        <item>Automation</item>
     </string-array>
 
+    <!-- subject array -->
+    <string-array name="subject_array">
+        <item>Mobile application development</item>
+        <item>Operating systems for embedded systems</item>
+        <item>Computer network technologies and services </item>
+        <item>Computer architectures</item>
+        <item>Software engineering</item>
+        <item>Modern design of control systems</item>
+    </string-array>
+    <!-- student home page -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="progress_logout">Logging out...</string>
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">New Group</string>
+    <!-- student home page -->
+    <string name="browse_sessions">BROWSE SESSIONS</string>
+    <string name="my_schedule_rate_this_session">SHOW MAP</string>
+    <string name="placeholder_session_title"></string>
+    <string name="placeholder_session_start_time">NO LECTURES FOR TODAY!</string>
+    <!-- weekdays -->
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="hint">Editor #%d</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="text_notify">Your message</string>
+    <string name="button_notify">Send</string>
+    <string name="my_chats">MyChats</string>
+    <string name="my_users">Users</string>
+    <string name="contacts">CONTACTS</string>
+    <string name="message_hint">Type here...</string>
 
 
 </resources>

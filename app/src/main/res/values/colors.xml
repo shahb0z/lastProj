@@ -8,4 +8,7 @@
     <color name="secondaryText">#727272</color>
     <color name="icons">#FFFFFF</color>
     <color name="divider">#B6B6B6</color>
+    <color name="body_text_1">#de000000</color>
+    <color name="flat_button_text">#ff008094</color>
+    <color name="list_dropdown_divider_color">#92a3a3a3</color>
 </resources>

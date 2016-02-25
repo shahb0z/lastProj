@@ -19,57 +19,130 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
             android:orientation="vertical" >
-
-            <EditText
-                android:id="@+id/username_edit_text"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/username_hint"
-                android:inputType="textEmailAddress"
-                android:maxLines="1"
-                android:singleLine="true" />
-            <EditText
-                android:id="@+id/password_edit_text"
+                android:orientation="vertical"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:layout_margin="8dp"
+                    android:text="CREATE ACCOUNT"/>
+
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/password_hint"
-                android:inputType="textPassword"
-                android:maxLines="1"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                android:singleLine="true" />
+                android:orientation="vertical"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="@string/name_hint"
+                    android:ems="10"
+                    android:id="@+id/edit_text_name"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    />
+
+                <EditText
+                    android:id="@+id/username_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/username_hint"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"/>
+                <EditText
+                    android:id="@+id/password_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password_hint"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true" />
 
 
-            <EditText
-                android:id="@+id/password_again_edit_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/password_again_hint"
-                android:inputType="textPassword"
-                android:maxLines="1"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                android:singleLine="true"
-                android:imeActionId="@+id/edit_text_action_signup"
-                android:imeActionLabel="@string/signup_title"
-                android:imeOptions="actionUnspecified" />
+                <EditText
+                    android:id="@+id/password_again_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password_again_hint"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:singleLine="true"
+                    android:imeActionId="@+id/edit_text_action_signup"
+                    android:imeActionLabel="@string/signup_title"
+                    android:imeOptions="actionUnspecified" />
 
-            <Spinner
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                android:id="@+id/spinner_user_type" />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/spinner_user_type" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                style="@style/Widget.AppCompat.ActionButton"
-                android:id="@+id/signup_confirm_button"
-                android:layout_gravity="end"
-                android:text="@string/signup_title"
-                android:textStyle="bold"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/spinner_course" />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/spinner_subject" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="match_parent"
+                        android:paddingTop="@dimen/activity_vertical_margin"
+                        android:textColor="@android:color/white"
+                        style="@style/Widget.AppCompat.ActionButton"
+                        android:id="@+id/signup_confirm_button"
+                        android:layout_gravity="center"
+                        android:text="@string/signup_title"
+
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

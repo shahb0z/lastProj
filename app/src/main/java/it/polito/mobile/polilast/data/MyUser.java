@@ -19,20 +19,27 @@ public class MyUser extends ParseUser {
         this.put(MyApp.TYPE, type);
     }
 
-    //department
-    public void setDepartment(String department){
-        put(MyApp.DEPARTMENT, department);
-    }
-    public String getDepartment(){
-        return getString(MyApp.DEPARTMENT);
-    }
     //major
     public void setMajor(String major){
-        put(MyApp.MAJOR,major);
+        put(MyApp.MAJOR, major);
     }
     public String getMajor(){
         return getString(MyApp.MAJOR);
     }
 
+    //subject
+    public void setSubject(String major){
+        put(MyApp.SUBJECT_NAME, major);
+    }
+    public String getSubject(){
+        return getString(MyApp.SUBJECT_NAME);
+    }
 
+
+    public void setName(String name) {
+        this.put(MyApp.FULLNAME, name);
+    }
+    public String getName() {
+        return getString(MyApp.FULLNAME);
+    }
 }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/touch_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp">
+        <TextView
+            android:id="@+id/slot_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="8dp"
+            android:ellipsize="end"
+            android:drawableLeft="@drawable/ic_event_note_24dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_medium"
+            tools:text="@string/placeholder_session_title" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="32dp"
+            android:background="@color/colorPrimary" />
+        <TextView
+            android:id="@+id/slot_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:paddingLeft="32dp"
+            android:textColor="@color/body_text_1"
+            android:textSize="@dimen/text_size_medium"
+            tools:text="9:00 AM - 11:30 AM / Room 1"
+            style="@style/Body1Text" />
+        <View
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/list_dropdown_divider_color" />
+    </LinearLayout>

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Operating systems for embedded systems",
+    "professor": "MASSIMO VIOLANTE",
+    "major":["Embedded Systems Engineering"
+    ],
+    "room":["11T","11T"],
+    "day":["Tuesday","Thursday"],
+    "interval":["08:30-11:30","10:00-13:00"],
+    "location":[[45.065635, 7.659463],[45.065635, 7.659463]]
+
+  },
+  {
+    "name": "Mobile application development",
+    "professor": "MALNATI GIOVANNI",
+    "major":["Software Engineering","Network Engineering"
+    ],
+    "room":["4D","10D"],
+    "day":["Tuesday","Thursday"],
+    "interval":["08:30-11:30","10:00-13:00"],
+    "location":[[45.063178, 7.662522],[45.063178, 7.662522]]
+  },
+  {
+    "name": "Computer network technologies and services",
+    "professor": "MARIO BALDI",
+    "major":["Software Engineering","Network Engineering","Automation"
+    ],
+    "room":["2I","3I"],
+    "day":["Tuesday","Friday"],
+    "interval":["11:30-13:00","10:00-13:00"],
+    "location":[[45.065134, 7.658505],[45.065250, 7.658097]]
+  },
+  {
+    "name": "Computer architectures",
+    "professor": "PAOLO MONTUSCHI",
+    "major":["Software Engineering","Network Engineering","Automation","Embedded Systems Engineering"
+    ],
+    "room":["14","10D"],
+    "day":["Monday","Wednesday"],
+    "interval":["08:30-11:30","08:30-11:30"],
+    "location":[[45.063450, 7.660971],[45.063178, 7.662522]]
+  },
+  {
+    "name": "Software engineering",
+    "professor": "MORISIO MAURIZIO",
+    "major":["Software Engineering","Network Engineering","Automation","Embedded Systems Engineering"
+    ],
+    "room":["14","10D"],
+    "day":["Monday","Friday"],
+    "interval":["14:30-17:30","16:00-17:30"],
+    "location":[[45.063450, 7.660971],[45.063178, 7.662522]]
+  },
+  {
+    "name": "Modern design of control systems",
+    "professor": "CERONE VITO",
+    "major":["Automation"
+    ],
+    "room":["2I","3I"],
+    "day":["Wednesday","Thursday"],
+    "interval":["14:30-17:30","16:00-17:30"],
+    "location":[[45.065134, 7.658505],[45.065250, 7.658097]]
+  }
+]

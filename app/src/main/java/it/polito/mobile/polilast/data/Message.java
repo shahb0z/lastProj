@@ -17,6 +17,7 @@ public class Message extends ParseObject{
     public void setSender(String username){
         put(MyApp.SENDER,username);
     }
+
     public String getSender(){
         return getString(MyApp.SENDER);
     }
@@ -33,5 +34,20 @@ public class Message extends ParseObject{
 
     public String getDescription(){
         return getString(MyApp.DESCRIPTION);
+    }
+
+    public void setGroup(String username){
+        put(MyApp.GROUP,username);
+    }
+
+    public String getGroup(){
+        return getString(MyApp.GROUP);
+    }
+    public void setType(String type){
+        put(MyApp.TYPE,type);
+    }
+
+    public String getType(){
+        return getString(MyApp.TYPE);
     }
 }

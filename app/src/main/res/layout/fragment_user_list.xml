@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.polito.mobile.polilast.ui.UserListFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_group_add_24dp"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="@string/hello_blank_fragment" />
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="4dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:layout_marginLeft="4dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="@color/common_action_bar_splitter"
+        android:text="@string/contacts" />
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="4dp"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/list_users" />
+
+</LinearLayout>
